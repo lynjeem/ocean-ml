@@ -7,8 +7,8 @@ GitHub Guide
 3. Open Terminal. Decide where you want to store your GitHub resository on your computer, and navigate to that place. I made a folder in my Documents called "InternGit", and I store this respository there. 
 
 Remember: 
-	* to make a directory use **mkdir /path/to/directoryname**
-	* to navigate to a directory use **cd /path/to/directoryname**
+* to make a directory use **mkdir /path/to/directoryname**
+* to navigate to a directory use **cd /path/to/directoryname**
 
 4. Once you're in the right location, clone the repository. This adds a local copy to your own computer, and you can make changes there! 
 	* In your browser, go to your GitHub account, open the repositories tab, find the forked repository, and click on the green button on the right side that says "clone or download." Copy the URL it gives you.
@@ -27,7 +27,7 @@ Remember:
 	* Type git checkout -b <branch-name>. This creates a new branch and switches you over to that new branch in git.
 
 ************************************
- ~ Break to visit climate wall ~
+ ~ Break to visit climate wall ~ 
 In pairs: pick a question
 1. What are some of the impacts of climate change (local and global)?
 2. What are some of the main drivers of climate change?
