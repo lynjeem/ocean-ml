@@ -10,7 +10,7 @@ Remember:
 * to make a directory use **mkdir /path/to/directoryname**
 * to navigate to a directory use **cd /path/to/directoryname**
 
-4. Once you're in the right location, clone the repository. This adds a local copy to your own computer, and you can make changes there! 
+4. Once you're in the right location, clone the repository. This adds a local copy to your own computer, and you can make changes there! To clone:
 	* In your browser, go to your GitHub account, open the repositories tab, find the forked repository, and click on the green button on the right side that says "clone or download." Copy the URL it gives you.
 	* In Terminal, type **git clone <url>**, where **<url>** is the URL of your forked repository that you just copied from GitHub
 	* Make sure you're cloning your *forked* respository, not the original. You can tell because in the top left corner, where it says the name of the repository, it will have a description that identifies where it was forked from.
@@ -26,6 +26,7 @@ Remember:
 8. Create a new branch in your repository. This allows you to make changes to your repository (i.e. to edit Jupyter Notebooks or write new code) without changing the main, master branch.
 	* Type git checkout -b <branch-name>. This creates a new branch and switches you over to that new branch in git.
 
+:earth_asia: :earth_asia: :earth_asia: :earth_asia: :earth_asia: :earth_asia: :earth_asia:
 ************************************
  ~ Break to visit climate wall ~ 
 In pairs: pick a question
@@ -33,7 +34,7 @@ In pairs: pick a question
 2. What are some of the main drivers of climate change?
 3. How does the information on the climate wall relate to our project?
 ***********************************
-
+:earth_americas: :earth_americas: :earth_americas: :earth_americas: :earth_americas: :earth_americas: :earth_americas:
 
 9. Practice making a change to your repository and pushing that change: In the climate-wall folder, open reflection.txt and add the answers to your questions (bulleted list is fine)
 
