@@ -66,5 +66,8 @@ Cheat sheet:
 	* git merge upstream/master (replace master with your <branch-name> if you want to merge changes with another branch)
 
 
+Credit: this tutorial was modified from [Katy Abbott's tutorial](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/git-instructions.md)
+
+
 
 
