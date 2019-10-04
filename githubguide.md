@@ -53,18 +53,18 @@ In pairs: pick a question
 
 Cheat sheet:
 
-* To add a new remote: git add remote <name> <url>
-* To see your remotes: git remote -v
-* To add a change: git add <file-name>
-* To checkout (switch to) a new branch: git checkout <branch-name>
-* To delete an existing branch (be careful – you may lose your changes!): git branch -d <branch-name>
-* To commit that change: git commit -m "message"
-* To push those changes to your remote repository: git push origin master
-	* If you're working on a different branch or remote (not master or origin): git push <remote-name> <branch-name>
+* To add a new remote: **git add remote <name> <url>**
+* To see your remotes: **git remote -v**
+* To add a change: **git add <file-name>**
+* To checkout (switch to) a new branch: **git checkout <branch-name>**
+* To delete an existing branch (be careful – you may lose your changes!): **git branch -d <branch-name>**
+* To commit that change: **git commit -m "<your message here>"**
+* To push those changes to your remote repository: **git push origin master**
+	* If you're working on a different branch or remote (not master or origin): **git push <remote-name> <branch-name>**
 * To sync your forked repository with any changes made to the original:
-	* git fetch upstream
-	* git checkout master (replace master with your <branch-name> if you want to merge changes with another branch)
-	* git merge upstream/master (replace master with your <branch-name> if you want to merge changes with another branch)
+	* **git fetch upstream**
+	* **git checkout master** (replace master with your <branch-name> if you want to merge changes with another branch)
+	* **git merge upstream/master** (replace master with your <branch-name> if you want to merge changes with another branch)
 
 
 Credit: this tutorial was modified from [Katy Abbott's tutorial](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/git-instructions.md)
