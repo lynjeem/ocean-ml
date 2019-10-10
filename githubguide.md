@@ -24,7 +24,7 @@ Remember:
 	* Now, type git remote -v again. You should see two remotes: One called origin that points to your own repository, and one called upstream that points to the original. 
 
 8. Create a new branch in your repository. This allows you to make changes to your repository (i.e. to edit Jupyter Notebooks or write new code) without changing the main, master branch.
-	* Type git checkout -b <branch-name>. This creates a new branch and switches you over to that new branch in git.
+	* Type **git checkout -b < branch-name >**. This creates a new branch and switches you over to that new branch in git.
 
 :earth_asia: :earth_asia: :earth_asia: :earth_asia: :earth_asia: :earth_asia: :earth_asia:
 ************************************
