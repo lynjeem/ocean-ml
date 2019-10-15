@@ -1,7 +1,2 @@
 this is a test
-<<<<<<< HEAD
 
-this change wont cause a probelm
-=======
-this is my first change
->>>>>>> mybranch4
