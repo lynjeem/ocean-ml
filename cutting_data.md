@@ -3,7 +3,7 @@
 Check out this beautiful beach in Bermuda: 
 ![bermuda :')](https://www.gotobermuda.com/sites/default/files/styles/hero/public/head-south-shore-horseshoe-bay-beach.jpg?itok=OBBhtfew)
 
-#First a bit about our data: 
+# First a bit about our data: 
 Review: We have been looking at sea_velocity_19930101.nc, which is one of many netcdf files downloaded from [here](http://marine.copernicus.eu.)This file contains the global horizontal and vertical velocities of the ocean, called ugos and vgos respectively.
 
 We want to match that data to the data about carbon in the ocean
@@ -14,3 +14,12 @@ We want to match that data to the data about carbon in the ocean
 
 <img src="https://raw.githubusercontent.com/madesai22/ocean-ml/master/images/BATS_data.png" width="400" height="450" />
 
+
+Our goal for today: 
+Given a netcdf file (sea_velocity_19930101.nc) with data fields ugos and vgos (horizontal and vertical velocities) for the whole globe (all latitudes and longitudes), we want to create variables BATS_ugos and BATS_vgos which contain just the ugos and vgos for the BATS latitude and longitude domains. 
+
+Instead of running code in a Jupyter notebook, we’re going to write our code in a text editor called Sublime and run our code in the terminal.
+
+1. Download sublime [here](https://www.sublimetext.com/3). Click to OSX downloader and follow the instructions. 
+2. NumPy cheat sheet is [here](https://github.com/madesai22/ocean-ml/blob/master/cheat-sheets-resources/numpy_cheat.pdf)
+3. NetCDF cheat sheet is [here] (to-do)
