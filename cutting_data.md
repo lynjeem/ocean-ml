@@ -12,5 +12,5 @@ We want to match that data to the data about carbon in the ocean
 * BATS has collected data on the physical, biological, and chemical properties of the ocean every month since before 1988. 
 * BATS is **not** global, it covers  roughly this: 
 
-<img src="https://raw.githubusercontent.com/madesai22/ocean-ml/master/images/BATS_data.png" width="200" height="400" />
+<img src="https://raw.githubusercontent.com/madesai22/ocean-ml/master/images/BATS_data.png" width="400" height="450" />
 
