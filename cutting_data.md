@@ -21,5 +21,9 @@ Given a netcdf file (sea_velocity_19930101.nc) with data fields ugos and vgos (h
 Instead of running code in a Jupyter notebook, we’re going to write our code in a text editor called Sublime and run our code in the terminal.
 
 1. Download sublime [here](https://www.sublimetext.com/3). Click to OSX downloader and follow the instructions. 
-2. NumPy cheat sheet is [here](https://github.com/madesai22/ocean-ml/blob/master/cheat-sheets-resources/numpy_cheat.pdf)
-3. NetCDF cheat sheet is [here] (to-do)
+2. NumPy cheat sheet is [here](https://github.com/madesai22/ocean-ml/blob/master/cheat-sheets-resources/numpy-cheat-sheet.pdf)
+3. NetCDF notebook from last week is [here](https://github.com/madesai22/ocean-ml/blob/master/NetCDF-tutorial_empty.ipynb)
+	Quick NetCDF notes:
+	* to import netCDF4 library: `from netCDF4 import Dataset`
+	* to import netCDF file: `dataset = Dataset(r'/path/to/file')`
+	* to access a data element: `lat = dataset['latitude']`
