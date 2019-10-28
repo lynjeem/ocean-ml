@@ -21,6 +21,7 @@ Best practices tip: Save your code after each question and run it in the termina
 Fun AI Application of the week!
 ![image](https://1.bp.blogspot.com/-X0o-v6SQXtI/WO6R8X22wlI/AAAAAAAABts/Qbvu5QoVwZIfKB-zEV7Po_Juh9AqEb28gCLcB/w1200-h630-p-k-no-nu/twitter_cover.png)
 Quick, Draw! with Google [Link](https://quickdraw.withgoogle.com)
+
 Questions:
 * Try drawing the items with as little detail and as few lines as possible. Is the AI able to guess what you are drawing? 
 * What happens when you draw a really detailed drawing?
@@ -30,6 +31,7 @@ Questions:
 # Now
 We are going to work on cutting our data down from the full globe to what we need to work with!
 [link to guide](https://github.com/madesai22/ocean-ml/blob/master/cutting_data.md)
+
 With a partner:
 * What are some of the variables we need as inputs?
 * What do we want our output to look like?
