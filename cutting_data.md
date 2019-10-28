@@ -27,3 +27,7 @@ Instead of running code in a Jupyter notebook, we’re going to write our code i
 	* to import netCDF4 library: `from netCDF4 import Dataset`
 	* to import netCDF file: `dataset = Dataset(r'/path/to/file')`
 	* to access a data element: `lat = dataset['latitude']`
+
+Note: BATS latitude range goes from 19.663 degrees North to 39.453 degrees North.
+BATS longitude range goes from -59.648999999999994 degrees west (360 -59.648999999999994 degrees east) to 66.211 degrees west (360-66.211 degrees east)
+
