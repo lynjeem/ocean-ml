@@ -8,6 +8,7 @@ Today we are going to cut our data down once and for all.  Slight change: instea
 Big picture of what we are doing:
 * We need to calculate the *ageostrophic* velocity vectors of the ocean, particularly the vertical (w) velocity. (Pause, draw, make sure we are on the same page) 
 * ugos and vgos (from the file we were looking at in the past) are the *geostrophic* velocities.
+
 Geostrophic and ageostrophic are both models scientists (us) use to calculate ocean current velocities from sea surface height. The geostrophic velocity is more commonly used because it is easier to calcuate and it is good enough for most purposes.  
 We are interested in using the ageostrophic velocity because the ageostrophic model is more accurate for dealing with eddies. 
 
