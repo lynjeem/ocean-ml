@@ -34,6 +34,7 @@ The other data fields that are important to us are latitude and longitude.
 In Sublime, open the file cutting_data.py. 
 Other resources:
 * [NumPy cheatsheet](https://github.com/madesai22/ocean-ml/blob/master/cheat-sheets-resources/numpy-cheat-sheet.pdf)
+
 Quick NetCDF notes:
 	* to import netCDF4 library: `from netCDF4 import Dataset`
 	* to import netCDF file: `dataset = Dataset(r'/path/to/file')`
