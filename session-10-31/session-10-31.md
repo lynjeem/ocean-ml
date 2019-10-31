@@ -18,6 +18,9 @@ This code is written in fortran77 (as in a programming language developed in 197
 This is what a computer looked like in 1977:
 
 ![image](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTExaxVhuEjf0oFMRzuuVJu0avZ3GG-QuSVyfw6HkfxXpPH7K9H)
+:see_no_evil::see_no_evil:
+
+Som-hi! (Catalan for "let's go!") 
 ***********
 
 So now our input data is **sea surface heights**. And despite all of this complicated mess, we still need to cut down our data.
