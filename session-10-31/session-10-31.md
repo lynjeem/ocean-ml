@@ -45,7 +45,7 @@ Quick NetCDF notes:
 
 Start by importing the file ssh_1572470095877 as a dataset object and creating variables with the lat, lon, and adt. Then, with a partner, discuss what the next steps are. (10 minutes)
 
-Now, we will discuss as a group and map out an aproach 
+Now, we will discuss as a group and map out an aproach. 
 
 Finally, you and your partner have the rest of the session to code the approach you choose. At the end, run `print(BATS_adt.shape)`
 You should get (1, 78, 25). 
