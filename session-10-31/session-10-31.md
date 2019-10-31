@@ -2,6 +2,9 @@
 
 ![image](https://i.pinimg.com/236x/9f/7d/ec/9f7decd4ce463890fdc37741bf77dd61--carved-pumpkins-pumpkin-carvings.jpg)
 
+Also,
+![image](https://previews.123rf.com/images/christitze/christitze1611/christitze161138480/66332637-happy-birthday-isabel-card-with-balloon-text-3d-rendered-stock-image-this-image-can-be-used-for-a-ec.jpg)
+
 Today we are going to cut our data down once and for all.  Slight change: instead of using the file we have been using, sea_velocity_19930101.nc, which contains *ugos* and *vgos*, we are going to move forward with a different (but very similar file), ssh_1572033769470.nc. Instead of containing the velocities, this file contains just the *sea surface height* of the ocean. Why are we using a new file?? What is going on??
 
 **********
