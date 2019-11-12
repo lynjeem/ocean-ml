@@ -18,5 +18,5 @@ Tuesday November 5 | No meeting, Election day |
 Thursday November 7 | Workshop |
 Tuesday November 12 | Oceans: Our Blue Planet movie, How does Ocean acidification work? | [movie info](https://www.amnh.org/exhibitions/3d-and-2d-films/oceans-our-blue-planet), [Ocean Acidification](https://www.youtube.com/watch?v=GL7qJYKzcsk)
 Thursday November 14 | Introduction to Machine Learning | [Fun AI Application of the week: Metaphoria](https://metaphor.ga), Slides about ML (link to be updated)
-Tuesday November 19 | Introduction to Organzing Data for ML | (Google Teachable Machine)[https://teachablemachine.withgoogle.com]
+Tuesday November 19 | Introduction to Organzing Data for ML | [Google Teachable Machine](https://teachablemachine.withgoogle.com)
 Thursday November 21 | Introduction to Computer Vision | 
