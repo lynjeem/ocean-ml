@@ -13,6 +13,10 @@ lon = dataset['longitude']
 # adt:
 adt = dataset['adt']
 
+start_date = date(1950,1,1)
+delta = timedelta(days = int(time[0]))
+observation_date = (start_date+delta).strftime("%m/%d/%Y")
+
 # you will need this:
 BATS_lat_max = 39.453
 BATS_lon_max = 360 -59.648999999999994 # converting from degrees west to degrees east
@@ -47,8 +51,26 @@ lat_index_max = max(lat_index)
 lon_index_min = min(lon_index)
 lon_index_max = max(lon_index)
 
-print("Max of Lat:", str(lat_index_max), "\nMin of Lat:", str(lat_index_min), "\nMax of Lon:", lon_index_max, "\nMin of Lon:", lon_index_min)
-
 BATSadt = adt[:, lat_index_min:lat_index_max, lon_index_min:lon_index_max]
+
+# creating colorbar scale:
+high = ma.amax(adt)
+low = ma.amin(adt)
+colorbar_scale =["%.2E"%low]
+i = 0.16
+while i<1:
+	value = (high-low)*i
+	colorbar_scale.append("%.2E"%value)
+	i+=0.16
+## ^^ ignore this but when you make your colorbar you can add the 
+## scale by: cbar.ax.set_yticklabels(colorbar_scale)
+
+
+
+# write code for global ocean here: 
+
+
+# write code for BATS part here:
+
 
 print(BATSadt.shape)
