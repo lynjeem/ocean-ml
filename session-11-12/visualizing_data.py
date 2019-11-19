@@ -1,8 +1,12 @@
 from netCDF4 import Dataset
 import numpy.ma as ma
+from datetime import date
+from datetime import timedelta
+import matplotlib.pyplot as plt
+import matplotlib.lines as mlines
 
 # import the netcdf file using Dataset
-dataset = Dataset(r'/Users/helenfellow/Documents/InternGit/ocean-ml/session-10-31/ssh_1572470095877.nc')
+dataset = Dataset(r'/Users/brownscholar/Documents/InternGit/ocean-ml/session-10-31/ssh_1572470095877.nc')
 
 # read in and create variable for lat:
 lat = dataset['latitude']
@@ -13,9 +17,9 @@ lon = dataset['longitude']
 # adt:
 adt = dataset['adt']
 
-start_date = date(1950,1,1)
-delta = timedelta(days = int(time[0]))
-observation_date = (start_date+delta).strftime("%m/%d/%Y")
+# start_date = date(1950,1,1)
+# delta = timedelta(days = int(time[0]))
+# observation_date = (start_date+delta).strftime("%m/%d/%Y")
 
 # you will need this:
 BATS_lat_max = 39.453
@@ -68,7 +72,17 @@ while i<1:
 
 
 # write code for global ocean here: 
+adt_2D = adt[0,:,:]
+plt.imshow(adt_2D,origin="lower")
 
+cbar = plt.colorbar()
+cbar.set_label('sea surface height(m)')
+plt.xlabel('longitude')
+plt.ylabel('latitude')
+plt.title("Sea Surface Height - Global Ocean (01/01/1993)")
+
+
+plt.show()
 
 # write code for BATS part here:
 
