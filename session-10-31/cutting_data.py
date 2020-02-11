@@ -43,7 +43,7 @@ for i in lon:
 		lon_index.add(index)
 	index += 1
 
-#
+
 latmin = min(lat_index)
 latmax = max(lat_index)
 lonmin = min(lon_index)

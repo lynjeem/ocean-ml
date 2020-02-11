@@ -81,6 +81,7 @@ plt.xlabel('longitude')
 plt.ylabel('latitude')
 plt.title("Sea Surface Height - Global Ocean (01/01/1993)")
 
+plt.xticks(np.arange(3),[7,8,9])
 
 plt.show()
 
