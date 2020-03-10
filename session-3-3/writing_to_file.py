@@ -36,7 +36,7 @@ density_file = open('density_file.txt',"w")
 
 salinty
 
-time1 = density_file[0,:,:,:]
+#time1 = density_file[0,:,:,:]
 
 for i in range(0,31):
 	for j in range(0,80):
