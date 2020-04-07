@@ -49,3 +49,4 @@ March 24 | dealing with errors, writing exec files, intro to shell scripts | [sl
 March 26 | intro to shell scripts | [Slides](https://docs.google.com/presentation/d/1DQpRwCuA_CZyaMe4wpsEpUzQKVpjYqd_v3ORWnVKezA/edit?usp=sharing)
 March 31 | writing our shell script | [Slides](https://docs.google.com/presentation/d/1s9aaoXj8MjQokFDPWqoSJtCHhcUd1iBHUrpCp_5bAGo/edit?usp=sharing)
 April 2 | finishing our shell script | [Slides](https://docs.google.com/presentation/d/1xTNKcLSTq3vnzJn17XURZVGy_u7oklCZrRB0Ak6SXzs/edit?usp=sharing)
+April 7 | converting our data to netcdf file, starting plots | [Slides](https://docs.google.com/presentation/d/1v2KPu8ChbO8H41lt-qfrOsoaNWqExmnIKiy6sZAWzoQ/edit?usp=sharing)
