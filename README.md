@@ -38,5 +38,15 @@ Tuesday February 11 | Downloading data, starting making density file | [Slides](
 Thursday Feburary 13 | Making density file cont'd | 
 February 18-20 | No session; fall break |
 February 25 | Guest speaker |
-February 27 | Making dynamic height file | [Slides](https://docs.google.com/presentation/d/1dik-VcBjoT5O4eYqFiQtIx9I5a4gTa-b1K2msBmLOuI/edit?usp=sharing)}
+February 27 | Making dynamic height file | [Slides](https://docs.google.com/presentation/d/1dik-VcBjoT5O4eYqFiQtIx9I5a4gTa-b1K2msBmLOuI/edit?usp=sharing)
 March 3 | Writing density file | [Slides](https://docs.google.com/presentation/d/1QtSeS2s-9Utn-b6t4A41YOd6Aeq6yDHWvzt5C--Xa5w/edit?usp=sharing)
+March 5 | Writing density file pt. 2 | [Slides](https://docs.google.com/presentation/d/1NW8Lk3s6erRCAsxFMVzUouFr6wzIpY-UOO8vglJHXzQ/edit?usp=sharing)
+March 10 | Wrapping up density file, writing info_pr.dat and running fortran code | [Slides](https://docs.google.com/presentation/d/151VL51PuCEjnnX8oq3uIj9yZcYetBE83xsdw8zWoZYM/edit?usp=sharing), [Other slides](https://docs.google.com/presentation/d/1I-KBQLYDpxs4wVRxx7g2ZU5jYI095m3zm_1MFC2KDy0/edit?usp=sharing)
+March 12 | Reviewing datetime library, changing file names | [slides](https://docs.google.com/presentation/d/1NkmEqdiOHONNueqE9ytgSdaMuCVmqq_pSx1MbKmjYo8/edit?usp=sharing)
+March 17 | Making all dynamic height and desnity files, writing info_pr.dat | [Slides](https://docs.google.com/presentation/d/18qitTrwjsubY5OdeqVMlGDAwEMo39XeEtS-vqxbUwpA/edit?usp=sharing)
+March 19 | Writing info_pr.dat, running single instance of our code | [slides :)](https://docs.google.com/presentation/d/11ePjDMUKc9YcA_U4llx3pzzpAB6AZiqQjNGheV-9kDY/edit?usp=sharing)
+March 24 | dealing with errors, writing exec files, intro to shell scripts | [slides](https://docs.google.com/presentation/d/1AqXaRSzMr0w1tV1DbEzxl6iax4fjgQRtCUrSecA6IGI/edit?usp=sharing)
+March 26 | intro to shell scripts | [Slides](https://docs.google.com/presentation/d/1DQpRwCuA_CZyaMe4wpsEpUzQKVpjYqd_v3ORWnVKezA/edit?usp=sharing)
+March 31 | writing our shell script | [Slides](https://docs.google.com/presentation/d/1s9aaoXj8MjQokFDPWqoSJtCHhcUd1iBHUrpCp_5bAGo/edit?usp=sharing)
+April 2 | finishing our shell script | [Slides](https://docs.google.com/presentation/d/1xTNKcLSTq3vnzJn17XURZVGy_u7oklCZrRB0Ak6SXzs/edit?usp=sharing)
+April 7 | converting our data to netcdf file, starting plots | [Slides](https://docs.google.com/presentation/d/1v2KPu8ChbO8H41lt-qfrOsoaNWqExmnIKiy6sZAWzoQ/edit?usp=sharing)

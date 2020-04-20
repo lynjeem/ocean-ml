@@ -1,4 +1,4 @@
-# to do 
+
 
 for i in range(0,10):
 	for j in range (0,10):
@@ -66,11 +66,46 @@ for i in range(0,31):
 #print(pressure_3D)
 
 density = sw.dens(salinty[:],temperature[:],pressure_3D)
+=======
+from netCDF4 import Dataset
+import numpy as np
+import seawater as sw 
+
+dataset = Dataset(r'/Users/brownscholar/Desktop/dataset-armor-3d-rep-weekly_1581373134952.nc')
+
+pressure = dataset['depth']
+temperture = dataset['to']
+salinity = dataset['so']
+
+print(pressure.shape)
+print(temperture.shape)
+print(salinity.shape)
+
+pressure_3d = np.zeros((31,80,27))
+
+# for depth_level in pressure:
+# 	print(np.repeat(depth_level,80*27).reshape((80,27)))
+
+
+for i in range(0,31):
+	#print(np.repeat(pressure[i],80*27).reshape((80,27)))
+	pressure_3d[i,:,:] = np.repeat(pressure[i],80*27).reshape((80,27))
+	#print(pressure_3d[i,:,:])
+
+density = sw.dens(salinity[:],temperture[:],pressure_3d)
+>>>>>>> 3ea6b141428d75ef84a8447b9d02e3430e6e9b3c
 density = density-1000
 
 print(density.shape)
 
+<<<<<<< HEAD
 
 
 
 	#print(pressure_3D[i,:,:])
+=======
+for i in range(0,10):
+	for j in range(0,10):
+		for k in range(0,10):
+			print(i,j,k)
+>>>>>>> 3ea6b141428d75ef84a8447b9d02e3430e6e9b3c
