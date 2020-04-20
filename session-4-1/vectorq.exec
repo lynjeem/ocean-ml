@@ -2,13 +2,16 @@
 
 
 set dir = ./test/
+set indir = /Users/brownscholar/Documents/
+set auxdir = /Users/brownscholar/Desktop/fortran_files/aux/
+set outdir = /Users/brownscholar/Desktop/fortran_files/omega/
 set fileinfo = {$dir}info_pr.dat
-set filedh =  {$dir}dh_19930106.gr
-set filest =  {$dir}density_19930106.gr
-set filestm = {$dir}ss1_st0.dat
-set filequ =  {$dir}ss1a2qu.gr
-set fileqv =  {$dir}ss1a2qv.gr
-set fileqdi = {$dir}ss1a2qdi.gr
+set filedh =  {$indir}/Geofiles/Geofiles_181226.gr
+set filest =  {$indir}/Densityfiles/Densityfiles_181226.gr
+set filestm = {$auxdir}/st0/181226_st0.dat
+set filequ =  {$outdir}/u/181226_qu.gr
+set fileqv =  {$outdir}/v/181226_qv.gr
+set fileqdi = {$auxdir}/qdi/181226_qdi.gr
 
 ./vectorq.exe << !
 '$fileinfo'	#>>>>>Escribe info file info.dat:
